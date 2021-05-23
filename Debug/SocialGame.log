@@ -1,0 +1,4 @@
+﻿  pch.cpp
+E:\VisualStudioProject\SocialGame\include\PNString.h(1931,9): warning C4161: #pragma managed(pop...): 푸시 횟수보다 팝 횟수가 많습니다.
+  SocialGame.cpp
+  SocialGame.vcxproj -> E:\VisualStudioProject\SocialGame\Debug\SocialGame.exe
