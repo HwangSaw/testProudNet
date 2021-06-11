@@ -1,4 +1,70 @@
-﻿  pch.cpp
-E:\VisualStudioProject\SocialGame\include\PNString.h(1931,9): warning C4161: #pragma managed(pop...): 푸시 횟수보다 팝 횟수가 많습니다.
-  SocialGame.cpp
-  SocialGame.vcxproj -> E:\VisualStudioProject\SocialGame\Debug\SocialGame.exe
+﻿  CSngServer.cpp
+E:\VisualStudioProject\SocialGame\CSngServer.h(5,1): error C2504: 'INetServerEvent': 기본 클래스를 정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(6,12): error C2143: 구문 오류: ';'이(가) '*' 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(6,12): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(6,25): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(14,23): error C2061: 구문 오류: 식별자 'ErrorInfo'
+E:\VisualStudioProject\SocialGame\CSngServer.h(16,25): error C2061: 구문 오류: 식별자 'ErrorInfo'
+E:\VisualStudioProject\SocialGame\CSngServer.h(18,29): error C2061: 구문 오류: 식별자 'ErrorInfo'
+E:\VisualStudioProject\SocialGame\CSngServer.h(20,42): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(20,42): error C2143: 구문 오류: ','이(가) '&' 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(22,32): error C2061: 구문 오류: 식별자 'RmiID'
+E:\VisualStudioProject\SocialGame\CSngServer.h(25,28): error C2061: 구문 오류: 식별자 'CNetClientInfo'
+E:\VisualStudioProject\SocialGame\CSngServer.h(28,29): error C2061: 구문 오류: 식별자 'CNetClientInfo'
+E:\VisualStudioProject\SocialGame\CSngServer.h(30,47): error C2061: 구문 오류: 식별자 'HostID'
+E:\VisualStudioProject\SocialGame\CSngServer.h(14,15): error C3668: 'CSngServer::OnError': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(16,15): error C3668: 'CSngServer::OnWarning': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(18,15): error C3668: 'CSngServer::OnInformation': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(20,15): error C3668: 'CSngServer::OnException': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(22,15): error C3668: 'CSngServer::OnNoRmiProcessed': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(25,15): error C3668: 'CSngServer::OnClientJoin': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(28,15): error C3668: 'CSngServer::OnClientLeave': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(30,15): error C3668: 'CSngServer::OnP2PGroupJoinMemberAckComplete': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(32,15): error C3668: 'CSngServer::OnUserWorkerThreadBegin': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.h(34,15): error C3668: 'CSngServer::OnUserWorkerThreadEnd': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(12,9): error C2065: 'm_netServer': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(12,20): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(17,2): error C2065: 'ErrorInfoPtr': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(17,15): error C2146: 구문 오류: ';'이(가) 'err' 식별자 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(17,15): error C2065: 'err': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(18,2): error C2065: 'CStartServerParameter': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(18,24): error C2146: 구문 오류: ';'이(가) 'sp' 식별자 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(18,24): error C2065: 'sp': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(19,2): error C2065: 'sp': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(20,2): error C2065: 'sp': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(21,2): error C2065: 'm_netServer': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(21,21): error C2065: 'sp': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(21,25): error C2065: 'err': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(24,26): error C2065: 'ErrorInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(24,37): error C2065: 'errorInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(24,46): error C2761: 'void CSngServer::OnError(void)': 멤버를 재선언할 수 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(25,1): error C2448: 'CSngServer::OnError': 함수 스타일 이니셜라이저가 함수 정의처럼 나타납니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(28,28): error C2065: 'ErrorInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(28,39): error C2065: 'errorInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(28,48): error C2761: 'void CSngServer::OnWarning(void)': 멤버를 재선언할 수 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(29,1): error C2448: 'CSngServer::OnWarning': 함수 스타일 이니셜라이저가 함수 정의처럼 나타납니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(32,32): error C2065: 'ErrorInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(32,43): error C2065: 'errorInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(32,52): error C2761: 'void CSngServer::OnInformation(void)': 멤버를 재선언할 수 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(33,1): error C2448: 'CSngServer::OnInformation': 함수 스타일 이니셜라이저가 함수 정의처럼 나타납니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(36,45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(36,45): error C2143: 구문 오류: ','이(가) '&' 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(40,35): error C2065: 'RmiID': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(40,41): error C2146: 구문 오류: ')'이(가) 'rmiID' 식별자 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(41,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(41,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(44,31): error C2065: 'CNetClientInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(44,47): error C2065: 'clientInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(44,57): error C2761: 'void CSngServer::OnClientJoin(void)': 멤버를 재선언할 수 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(45,1): error C2448: 'CSngServer::OnClientJoin': 함수 스타일 이니셜라이저가 함수 정의처럼 나타납니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(49,32): error C2065: 'CNetClientInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(49,48): error C2065: 'clientInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(49,60): error C2065: 'ErrorInfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(49,71): error C2065: 'errorinfo': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(49,82): error C2059: 구문 오류: 'const'
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(50,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(50,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(54,50): error C2065: 'HostID': 선언되지 않은 식별자입니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(54,57): error C2146: 구문 오류: ')'이(가) 'groupHostID' 식별자 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(55,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+E:\VisualStudioProject\SocialGame\CSngServer.cpp(55,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
