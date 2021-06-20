@@ -7,6 +7,7 @@
 
 #include <Windows.h>
 #include "CSngServer.h"
+#include "SocialGame.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -14,6 +15,8 @@ int _tmain(int argc, _TCHAR* argv[])
     puts("ESC : Quit");
 
     CSngServer* server = new CSngServer;
+    server->Start();
+
     while (1)
     {
         if (_kbhit())

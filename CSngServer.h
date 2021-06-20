@@ -7,6 +7,8 @@ class CSngServer : public INetServerEvent
 public:
 	CSngServer();
 	~CSngServer();
+
+	void Start();
 	virtual void OnClientJoin(CNetClientInfo* clientInfo) override;
 	
 	virtual void OnClientLeave(CNetClientInfo* clientInfo, ErrorInfo* errorinfo, const ByteArray& comment) override;

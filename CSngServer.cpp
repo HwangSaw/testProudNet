@@ -4,20 +4,32 @@
 
 CSngServer::CSngServer()
 {
-	//m_netServer = CNetServer::Create();
-	//m_netServer->SetEventSink(this); // for receiving events
+	m_netServer = CNetServer::Create();
+	m_netServer->SetEventSink(this); // for receiving events
 }
 
 CSngServer::~CSngServer()
 {
+	delete m_netServer;
+}
+
+void CsngServer::Start()
+{
+	ErrInfo err;
+	CStartServerParameter sp;
+	sp.m_protocolVersion = g_sngProtocolVersion;
+	sp.m_tcpPorts.Add(12349);
+	m_netServer->Start(sp, err);
 }
 
 void CSngServer::OnClientJoin(CNetClientInfo* clientInfo)
 {
+	printf("%s: %d\n", __FUNCTIONT__, clientInfo->m_HostID);
 }
 
 void CSngServer::OnClientLeave(CNetClientInfo* clientInfo, ErrorInfo* errorinfo, const ByteArray& comment)
 {
+	printf("%s: %d\n", __FUNCTIONT__, clientInfo->m_HostID);
 }
 
 void CSngServer::OnClientOffline(CRemoteOfflineEventArgs&)
