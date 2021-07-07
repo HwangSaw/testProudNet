@@ -7,7 +7,7 @@
 
 #include <Windows.h>
 #include "CSngServer.h"
-#include "SocialGame.h"
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {

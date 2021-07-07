@@ -4,22 +4,21 @@
 
 CSngServer::CSngServer()
 {
-	m_netServer = CNetServer::Create();
-	m_netServer->SetEventSink(this); // for receiving events
+
 }
 
 CSngServer::~CSngServer()
 {
-	delete m_netServer;
+	//delete m_netServer;
 }
 
-void CsngServer::Start()
+void CSngServer::Start()
 {
-	ErrInfo err;
+	/*ErrInfo err;
 	CStartServerParameter sp;
 	sp.m_protocolVersion = g_sngProtocolVersion;
 	sp.m_tcpPorts.Add(12349);
-	m_netServer->Start(sp, err);
+	m_netServer->Start(sp, err);*/
 }
 
 void CSngServer::OnClientJoin(CNetClientInfo* clientInfo)
