@@ -5,10 +5,12 @@ using namespace Proud;
 class CSngServer : public INetServerEvent
 {
 public:
+	CNetServer* m_netServer;
 	CSngServer();
 	~CSngServer();
 
 	void Start();
+
 	virtual void OnClientJoin(CNetClientInfo* clientInfo) override;
 	
 	virtual void OnClientLeave(CNetClientInfo* clientInfo, ErrorInfo* errorinfo, const ByteArray& comment) override;

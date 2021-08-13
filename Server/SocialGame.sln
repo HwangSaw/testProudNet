@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocialGame", "SocialGame.vcxproj", "{D096E7AF-82DF-4A54-BDF9-003E4986BE13}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "..\Common\Common.vcxproj", "{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{D096E7AF-82DF-4A54-BDF9-003E4986BE13}.Release|x64.Build.0 = Release|x64
 		{D096E7AF-82DF-4A54-BDF9-003E4986BE13}.Release|x86.ActiveCfg = Release|Win32
 		{D096E7AF-82DF-4A54-BDF9-003E4986BE13}.Release|x86.Build.0 = Release|Win32
+		{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}.Debug|x64.ActiveCfg = Debug|x64
+		{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}.Debug|x64.Build.0 = Debug|x64
+		{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}.Debug|x86.ActiveCfg = Debug|Win32
+		{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}.Debug|x86.Build.0 = Debug|Win32
+		{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}.Release|x64.ActiveCfg = Release|x64
+		{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}.Release|x64.Build.0 = Release|x64
+		{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}.Release|x86.ActiveCfg = Release|Win32
+		{7CB2F17C-7706-4118-AB3B-2BB1FDC9852B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

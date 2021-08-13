@@ -1,0 +1,6 @@
+^C:\NEW\COMMON\C2C.PIDL
+"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "C:\new\Common\C2C.PIDL" -cpp
+^C:\NEW\COMMON\C2S.PIDL
+"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "C:\new\Common\C2S.PIDL" -cpp
+^C:\NEW\COMMON\S2C.PIDL
+"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "C:\new\Common\S2C.PIDL" -cpp
