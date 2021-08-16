@@ -1,6 +1,6 @@
 #include "PCH.h"
 #include "CSngServer.h"
-#include "..\SngCommon\SngCommon.h"
+#include "..\Common\Common.h"
 using namespace Proud;
 
 CSngServer::CSngServer()
@@ -24,12 +24,12 @@ void CSngServer::Start()
 }
 void CSngServer::OnClientJoin(CNetClientInfo* clientInfo)
 {
-	//printf("%s: %d\n", __FUNCTIONT__, clientInfo->m_HostID);
+	printf("%s: %d\n", __FUNCTIONT__, clientInfo->m_HostID);
 }
 
 void CSngServer::OnClientLeave(CNetClientInfo* clientInfo, ErrorInfo* errorinfo, const ByteArray& comment)
 {
-	//printf("%s: %d\n", __FUNCTIONT__, clientInfo->m_HostID);
+	printf("%s: %d\n", __FUNCTIONT__, clientInfo->m_HostID);
 }
 
 void CSngServer::OnClientOffline(CRemoteOfflineEventArgs&)
@@ -42,6 +42,7 @@ void CSngServer::OnClientOnline(CRemoteOnlineEventArgs&)
 
 void CSngServer::OnP2PGroupJoinMemberAckComplete(HostID groupHostID, HostID memberHostID, ErrorType result)
 {
+	throw std::exception("The method or operation is not implemented.");
 }
 
 void CSngServer::OnUserWorkerThreadBegin()
@@ -62,6 +63,7 @@ void CSngServer::OnP2PGroupRemoved(HostID)
 
 void CSngServer::OnError(ErrorInfo* errorInfo)
 {
+	printf("%s: %s\n", __FUNCTION__, StringW2A(errorInfo->ToString()));
 }
 
 void CSngServer::OnWarning(ErrorInfo* errorInfo)
