@@ -1,0 +1,9 @@
+global SocialC2S 3000 //client to server starting message ID 3001, 3002, ...
+{
+RequestLogon([in] String villeName, [in] bool isNewVille);
+}
+
+global SocialS2C 4000 // server to client 
+{
+	ReplyLogon([in] int result, [in] String comment);
+}

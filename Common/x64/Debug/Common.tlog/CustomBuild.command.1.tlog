@@ -1,6 +1,2 @@
-^C:\NEW\TESTPROUDNET\COMMON\C2C.PIDL
-"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "C:\new\testProudNet\Common\C2C.PIDL" -cpp
-^C:\NEW\TESTPROUDNET\COMMON\C2S.PIDL
-"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "C:\new\testProudNet\Common\C2S.PIDL" -cpp
-^C:\NEW\TESTPROUDNET\COMMON\S2C.PIDL
-"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "C:\new\testProudNet\Common\S2C.PIDL" -cpp
+^C:\NEW\TESTPROUDNET\COMMON\SOCIAL.PIDL
+"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "C:\new\testProudNet\Common\Social.PIDL" -cpp

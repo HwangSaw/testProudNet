@@ -177,7 +177,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C2C.PIDL">
+    <CustomBuild Include="Social.PIDL">
       <FileType>Document</FileType>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "%(FullPath)" -cpp</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).PIDL Compiling...</Message>
@@ -188,22 +188,6 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(Filename).PIDL Compiling...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(RootDir)%(Directory)\%(Filename)_common.cpp;%(RootDir)%(Directory)\%(Filename)_common.h;%(RootDir)%(Directory)\%(Filename)_proxy.cpp;%(RootDir)%(Directory)\%(Filename)_proxy.h;%(RootDir)%(Directory)\%(Filename)_stub.cpp;%(RootDir)%(Directory)\%(Filename)_stub.h</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe;%(AdditionalInputs)</AdditionalInputs>
-    </CustomBuild>
-    <CustomBuild Include="C2S.PIDL">
-      <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "%(FullPath)" -cpp</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).PIDL Compiling...</Message>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(RootDir)%(Directory)\%(Filename)_common.cpp;%(RootDir)%(Directory)\%(Filename)_common.h;%(RootDir)%(Directory)\%(Filename)_proxy.cpp;%(RootDir)%(Directory)\%(Filename)_proxy.h;%(RootDir)%(Directory)\%(Filename)_stub.cpp;%(RootDir)%(Directory)\%(Filename)_stub.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-    </CustomBuild>
-    <CustomBuild Include="S2C.PIDL">
-      <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe" "%(FullPath)" -cpp</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).PIDL Compiling...</Message>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Nettention\ProudNet\util\PIDL.exe;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(RootDir)%(Directory)\%(Filename)_common.cpp;%(RootDir)%(Directory)\%(Filename)_common.h;%(RootDir)%(Directory)\%(Filename)_proxy.cpp;%(RootDir)%(Directory)\%(Filename)_proxy.h;%(RootDir)%(Directory)\%(Filename)_stub.cpp;%(RootDir)%(Directory)\%(Filename)_stub.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
